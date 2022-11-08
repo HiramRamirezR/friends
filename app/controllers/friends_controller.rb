@@ -54,14 +54,6 @@ class FriendsController < ApplicationController
     # No need for app/views/restaurants/destroy.html.erb
     redirect_to friends_path, status: :see_other
   end
-  # def destroy
-  #   @friend.destroy
-
-  #   respond_to do |format|
-  #     format.html { redirect_to friends_url, notice: "Friend was successfully destroyed." }
-  #     format.json { head :no_content }
-  #   end
-  # end
 
   private
     # Use callbacks to share common setup or constraints between actions.
